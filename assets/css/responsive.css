@@ -1,6 +1,138 @@
-@media (max-width: 768px) {
-  .progress {
-    width: 100%;
-    margin: 10px 0;
+@media (max-width: 991px) {
+  /* !Header Section */
+  .section-one .navbar-nav {
+    text-align: center;
+    margin-top: 20px;
   }
+  #main .hero-section {
+    padding: 200px 0;
+  }
+  #main .nav-item a {
+    font-size: 25px;
+  }
+  .hero-text h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .hero-section .hero-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+  .hero-section .same-btn {
+    padding: 10px 20px;
+  }
+  /* ! */
+  /* !About Section */
+  .about-section .about-image {
+    width: 100%;
+  }
+  .about-section .about-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .about-section .about-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    /* line-height: 20px; */
+  }
+  .about-section .about-text p {
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  .about-section .same-btn {
+    padding: 10px 20px;
+  }
+  /* ! */
+  /* !Client Section */
+  .client-section .client-text h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .client-section .same-btn {
+    padding: 10px 20px;
+  }
+  /* ! */
+}
+@media (max-width: 575px) {
+  /* !Header Section */
+  .section-one .navbar-nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #main .hero-section {
+    padding: 150px 0;
+  }
+  #main .nav-item a {
+    font-size: 20px;
+  }
+  .hero-section .hero-text h1 {
+    font-size: 30px;
+  }
+  .hero-section .hero-text h3 {
+    font-size: 14px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+  .hero-section .hero-text h3 span {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .hero-section .same-btn {
+    padding: 10px 20px;
+  }
+  /* !!! */
+  /* !About Section */
+  .about-section {
+    text-align: center;
+  }
+  .about-section .about-image {
+    margin-bottom: 25px;
+  }
+  .about-section .about-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .about-section .about-text h4 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .about-section .about-text p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  /* !!! */
+  /* !Skill Section */
+  .skill-section .skill-bar-two {
+    margin-top: 50px;
+  }
+  /* !!! */
+  /* !Service Section */
+  .service-section .single-service {
+    padding: 80px 60px;
+  }
+  /* !Portfolio Section */
+  .portfolio-section .single-portfolio {
+    margin-top: 30px;
+  }
+  /* !!! */
+  /* !Client Section */
+  .client-text p {
+    font-size: 15px;
+  }
+  .client-section .client-text h2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+  .client-section .same-btn {
+    padding: 10px 20px;
+  }
+  /* ! */
 }

@@ -5,110 +5,121 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assignment</title>
+    <!-- !Bootstrsp -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- ! -->
+    <!-- !Fontawesome -->
     <script src="https://kit.fontawesome.com/38bdd8bf14.js" crossorigin="anonymous"></script>
+    <!-- ! -->
+    <!-- !Email js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("rA0oDCbC4JLEc_9IQ");
+        })();
+    </script>
+    <!-- ! -->
+    <!-- !Css File -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ! -->
 </head>
 
 <body>
-    <section class="section-one">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#"><span class="fw-bold same-span">Pers</span>onal</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
+    <!-- !Header Section -->
+    <main id="main">
+        <section class="section-one">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><span class="fw-bold same-span">Pers</span>onal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                </div>
+            </nav>
+        </section>
+        <section id="preloader-area">
+            <div class="spinner-border text-danger" role="status">
             </div>
-            </div>
-        </nav>
-    </section>
-    <section class="hero-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 d-flex align-items-center">
-                    <div class="hero-area">
-                        <div class="hero-text">
-                            <h1>Let's Build Something
-                                <br><span class="same-span">Great</span> Together.
-                            </h1>
-                            <h3>Afran Khan <span>- Web Devoloper</span></h3>
-                            <a href="mailto:sarkernoyon62@gmail.com">See My Work</a>
+        </section>
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero-area">
+                            <div class="hero-text">
+                                <h1>Let's Build Something
+                                    <br><span class="same-span">Great</span> Together.
+                                </h1>
+                                <h3>Afran Khan <span>- Web Devoloper</span></h3>
+                                <a class="same-btn" href="">See My Work</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="hero-image">
-                        <img src="assets/img/personal.jpg" alt="">
-                    </div>
-                </div>
             </div>
-        </div>
-        <div id="particles-js"></div>
-    </section>
-    <!-- !!! -->
+            <div id="particles-js"></div>
+        </section>
+    </main>
+    <!-- ! -->
+    <!-- !About Section -->
     <section class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 ">
+                <div class="col-lg-5 col-md-5 col-sm-2">
                     <div class="about-image">
                         <img src="assets/img/personal.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-7 d-flex align-items-center">
+                <div class="col-lg-7 col-md-7 col-sm-2 d-flex align-items-center">
                     <div class="about-text">
                         <h2>Hello I'm <span class="same-span">Afran Khan</span></h2>
                         <h4>I'm Afran Khan. Creative Web Designer And Developer With More Than 1 Years Experience. I
                             Design Your Website.</h4>
                         <p>whereas multidisciplinary intellectual capital. Distinctively synergize market-driven master
                             and prospective channels. Dramatically drive an expanded array of expertise with modern
-                            technology. Completely cultivate standardized manufactured. Continue transform process
-                            centric systems rather than compelling growth strategies. Energistically streamline low-risk
-                            high-yield supply chains via scalable intellectual capital.</p>
-                        <a href="mailto:sarkernoyon62@gmail.com">Download CV</a>
-                        <a href="mailto:sarkernoyon62@gmail.com">Hire Me</a>
+                            technology. Completely cultivate standardized manufactured.</p>
+                        <a class="same-btn" href=>Download CV</a>
+                        <a class="same-btn" href="mailto:sarkernoyon62@gmail.com">Hire Me</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- !!! -->
+    <!-- ! -->
+    <!-- !Skill Section -->
     <section class="skill-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="skill-text text-center">
-                        <h2>Main <span>Skills</span></h2>
-                        <p>Some of my main skills I love to work with.</p>
-                    </div>
-                </div>
+            <div class="skill-text">
+                <h2>My <span>Skills</span></h2>
+                <p>Some of my main skills I love to work with.</p>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="skill-bar-one">
                             <h4>HTML</h4>
                             <div class="progress">
@@ -132,8 +143,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="skill-bar-one">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="skill-bar-two">
                             <h4>Adobe XD</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
@@ -160,112 +171,239 @@
             </div>
         </div>
     </section>
-    <!-- !!! -->
+    <!-- ! -->
+    <!-- !Service Section -->
     <section class="service-section">
         <div class="container">
+            <div class="service-text text-center">
+                <h2>Services</h2>
+                <p>I am offering My Customers very Special Services<br> Solutions and Here are My main
+                    Services.
+                </p>
+            </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="service-text text-center">
-                        <h2>Services</h2>
-                        <p>I am offering My Customers very Special Services and<br> Solutions and Here are My main
-                            Services.
-                        </p>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <div class="single-service">
+                        <i class="fab fa-html5"></i>
+                        <h2>Web Design</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <i class="fas fa-code"></i>
+                        <h2>Web Develop</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <i class="fas fa-file-signature"></i>
+                        <h2>Well Documented</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <i class="far fa-eye"></i>
+                        <h2>Awesome Display</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <i class="fas fa-check-circle"></i>
+                        <h2>100% Responsive</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <i class="far fa-thumbs-up"></i>
+                        <h2>Retina Ready</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <i class="fas fa-chart-line"></i>
+                        <h2>Analytics</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-service">
+                        <i class="far fa-life-ring"></i>
+                        <h2>Support</h2>
+                        <p>We deliver high-quality and cost-effective solutions using current technologies to give you a
+                            flexible and strong online presence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ! -->
+    <!--!Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-header text-center">
+                <h2>Portfolio</h2>
+                <p>Some of My Awesome Previous Web Designing <br> And front end development</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-image">
+                        <img src="assets/img/p-1.jpg" alt="">
+                        <div class="portfolio-text text-center mt-3">
+                            <h3>Frist Work</h3>
+                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essentpossim
+                                iriure.</p>
+                            <a href="">See Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-image">
+                        <img src="assets/img/p-2.jpg" alt="">
+                        <div class="portfolio-text text-center">
+                            <h3>Second Work</h3>
+                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                                possim iriure.</p>
+                            <a href="">See Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-image">
+                        <img src="assets/img/p-3.jpg" alt="">
+                        <div class="portfolio-text text-center">
+                            <h3>Third Work</h3>
+                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                                possim iriure.</p>
+                            <a href="">See Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-image">
+                        <img src="assets/img/p-4.jpg" alt="">
+                        <div class="portfolio-text text-center">
+                            <h3>Fourth Work</h3>
+                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                                possim iriure.</p>
+                            <a href="">See Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-image">
+                        <img src="assets/img/p-5.jpg" alt="">
+                        <div class="portfolio-text text-center">
+                            <h3>Fifth Work</h3>
+                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                                possim iriure.</p>
+                            <a href="">See Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <i class="fab fa-html5 align-items-center"></i>
-                            <h2>Web Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+
+                    <div class="portfolio-image">
+                        <img src="assets/img/p-6.jpg" alt="">
+                        <div class="portfolio-text text-center">
+                            <h3>Sixth Work</h3>
+                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                                possim iriure.</p>
+                            <a href="">See Details</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- !!! -->
-    <section class="portfolio-section">
+    <!-- ! -->
+    <!-- !Client Section -->
+    <section class="client-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="portfolio-text text-center">
-                        <h2>Portfolio</h2>
-                        <p>Some of My Awesome Previous Work in Web Designing ,<br> And front end development</p>
+                    <div class="client-text text-center">
+                        <p>I am available for Freelance hire</p>
+                        <h2>Let's <span class="same-span">Work</span> Together Indeed!</h2>
+                        <a class="same-btn" href="mailto:sarkernoyon62@gmail.com">Hire ME</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="single-portfolio">
-                            <div class="portfolio-image">
-                                <img src="assets/img/p-1.jpg" alt="">
-                                <div class="portfolio-text">
-                                    <h3>Frist Work</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, sed!</p>
-                                    <a href="">Read More</a>
-                                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! -->
+    <!-- !Contact Section -->
+    <section class="contact-section">
+        <div class="opacity">
+            <div class="container">
+                <div class="contact-text text-center">
+                    <h3>Keep In Touch</h3>
+                    <p>Here You can find me , Ask me about Anything.<br>Contact Me
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-7 ">
+                            <div class="contact-form">
+                                <input type="text" id="contactName" placeholder="Your Name" class="form-control mb-3" />
+                                <input type="email" id="contactEmail" placeholder="Email" class="form-control mb-3" />
+                                <textarea id="contactMessage" rows="5" placeholder="Message"
+                                    class="form-control mb-3"></textarea>
+                                <button id="submitButton">Send</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="address-map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14700.779454031883!2d89.21576495419919!3d22.906182371492367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff6dde44cb9fb5%3A0x4fca4663a146efbc!2sKeshabpur!5e0!3m2!1sen!2sbd!4v1674408107694!5m2!1sen!2sbd"
+                                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
     </section>
+    <!-- ! -->
+    <!-- !Footer Section -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-icon text-center">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://github.com/Noyonsarker/Assignment"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p>All rights reserved © 2023 <span>Person</span>. Designed By Afran<span> Khan</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! -->
+    <!-- !Js File -->
     <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/app.js"></script>
-
+    <!-- ! -->
 </body>
 
 </html>
